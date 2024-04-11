@@ -11,7 +11,7 @@
 #include "dynamic_library.h"
 namespace {
 DynamicLibrary &get_libssl() {
-  static DynamicLibrary libssl("libssl.so", "libssl.so.1.1");
+  static DynamicLibrary libssl("libssl.so");
   return libssl;
 }
 } // namespace
