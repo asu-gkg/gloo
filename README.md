@@ -56,6 +56,7 @@ the `GTEST_ROOT` CMake variable.
 
 You can install Google Test using conda with:
 ``` shell
+sudo apt-get install libssl-dev
 conda install -c anaconda gmock gtest
 ```
 Be carefull that you might need to fish for a package that works with your glibc
